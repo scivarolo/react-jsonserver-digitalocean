@@ -50,6 +50,8 @@ This format will help you stay organized and know where each subdomain server li
 - `mkdir {your-json-subdomain.folder.com}` You can stick your database.json here, or just know where you're keeping it.
 - `cd` back to the folder where you cloned your git repo (`cd ~/{repo-folder}`)
 - `cd build` Should take you into the build folder
+<br>
+(You could theoretically skip making the subdomain folder for your react project and just serve your site from the build folder, but I wanted to keep the repository separate from the server.)
 
 <br>
 
