@@ -13,6 +13,7 @@ This allows you to clone from your repos on Github directly to your Droplet.
 ## Update Node JS
 1. `sudo npm install -g n`
 2. `sudo n stable`<br>
+3. `node -v` to check version (if it still says 4.2.6 and not 11.something, run step 2 again)
 This will get you the latest version of NodeJS on your Droplet. I had issues installing packages before this.
 
 <br>
