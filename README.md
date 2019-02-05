@@ -119,7 +119,7 @@ server {
 ```
 
 
-To exit: `esc` then `:q` and return
+To exit: `esc` then `:x` and `return`
 
 - We need to symlink this file into sites-enabled:<br>
 `sudo ln -s /etc/nginx/sites-available/yourdomain.com /etc/nginx/sites-enabled/yourdomain.com`
@@ -152,7 +152,7 @@ Go to `yoursubdomain.domain.com` and hopefully it works!
 - `sudo npm run build`
 - `rm -rf ~/www/subdomain.yoursite.com/*`
 - `cd ~/your-repo-folder/build`
-- `cp * ~/www/subdomain.yoursite.com/`
+- `cp -r * ~/www/subdomain.yoursite.com/`
 
 <br>
 
