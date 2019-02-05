@@ -1,6 +1,6 @@
 # Getting a React app running with json-server on Digital Ocean
 This will help you setup subdomains to serve your React Frontend and its json-server backend.
-This assumes you've followed Steve's steps to get your Droplet up and running.
+This assumes you've followed Steve's steps to get your Droplet up and running. This is a work in progress, and I may have missed a step I took!
 
 <br>
 
