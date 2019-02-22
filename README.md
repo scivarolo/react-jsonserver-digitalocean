@@ -36,9 +36,10 @@ ex: I created `barkeeper.sebastiancivarolo.com` and `barkeeper-json.sebastianciv
 ## Cloning your React Project to your Droplet
 1. In your home directory in your droplet, clone down your react project:<br>
 `git clone [repo-address] [project-folder]`
-2. `npm install`<br>
+2. `cd [project-folder]`
+3. `npm install`<br>
 **BEFORE YOU BUILD** Update your API manager to point to the new subdomain your created instead of `http://localhost:5002`.
-3. `sudo npm run build` This will create a production version of your react project in a `/build` folder.
+4. `sudo npm run build` This will create a production version of your react project in a `/build` folder.
 
 <br>
 
